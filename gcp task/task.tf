@@ -130,8 +130,8 @@ resource "google_container_cluster" "primary" {
   project = "dev-project-9219"
 
   master_auth {
-    username = "bharat8249"
-    password = "virendra@1234567"
+    username = "username"
+    password = "pass"
 
     client_certificate_config {
       issue_client_certificate = false
